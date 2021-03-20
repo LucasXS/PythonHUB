@@ -1,10 +1,10 @@
 import pywhatkit
 
-lista_numeros = ['+5511960649838']
-mensagem = "Olá, essa é uma mensagem enviada pelo pywhatkit"
+lista_numeros = ['+55119SEUNUMERO', '+55119SEUNUMERO2']
+mensagem = "Olá, Gostaria de ganhar um premio agora?"
 
 for numero in lista_numeros:    # para cada nýmero que existir em uma lista de números
-    pywhatkit.sendwhatmsg(numero, mensagem, 23,22) # biblioteca chama a função e enviar x msg.
+    pywhatkit.sendwhatmsg(numero, mensagem, 0,3)    # biblioteca chama a função e enviar x msg.
 
 # Precisei mudar dentro do mainfunctions uma das execessões linha 292
 # if tyme >= 60:
