@@ -12,3 +12,5 @@ cursor.execute('SELECT * FROM database_name.table')
 
 for row in  cursor:
     print(row)
+
+#
