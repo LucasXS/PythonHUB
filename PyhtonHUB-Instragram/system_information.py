@@ -1,5 +1,7 @@
 # Windows Management Instrumentation to get system Information
+
 import wmi
+
 c = wmi.WMI()
 my_system = c.win32_computerSystem()[0]
 print(f'Manufacturer: {my_system.Manufacturer}\033[m')
