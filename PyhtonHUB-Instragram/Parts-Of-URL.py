@@ -9,5 +9,3 @@ instagram = Domain
 .com = Top level Domain
 python.hub = Path
 """
-
-# teste
