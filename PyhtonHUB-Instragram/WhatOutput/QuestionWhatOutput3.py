@@ -1,3 +1,4 @@
+# O que sai no final?
 xx = 50
 
 def var ():
